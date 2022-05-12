@@ -1,0 +1,41 @@
+.items__container__header {
+  color: #7A7A7A;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 5px 30px;
+}
+
+.items__container {
+  padding: 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: minmax(280px, 1fr) repeat(auto-fill, minmax(280px, 1fr));
+  align-content: start;
+  grid-column: 2;
+  overflow: hidden;
+}
+
+
+.icons__container {
+  background-color: white;
+  color: #7A7A7A;
+  font-family: Helvetica;
+  font-size: 6px;
+  font-weight: bolder;
+  padding: 5px 15px;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
+  border-width: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  
+  overflow: hidden;
+}
+
+.icons__container > * {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
