@@ -8,3 +8,5 @@ I also had trouble with networking and other devices connecting to it on differe
 But all said and done, this is my project and I'm so proud of what I've learned and created, and hope I inspired at least one person to continue their passions into technology
 
 This is my project, a Local Network Storage System, a clone of Google Drive I call, Goggle Drove.
+
+# Installation
