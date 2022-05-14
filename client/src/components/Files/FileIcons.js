@@ -136,7 +136,7 @@ function FileIcons() {
         media = (
           <div className="preview__unsupported">
             <div>This file type is not supported atm...</div>
-            <div>But you can always download it if you want</div>
+            <div>But you can always download it if you want yk</div>
           </div>
         )
     }
