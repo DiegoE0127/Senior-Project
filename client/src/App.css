@@ -1,19 +1,33 @@
+html {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
 .App {
+  position: relative;
   display: flex;
   flex-direction: column;
-  /* border-color: red;
-  border-style: solid; */
   min-width: none;
   min-height: none;
-  
   overflow: hidden;
 }
 
 .body {
   position: relative;
-  padding: 15px;
   display: grid;
-  grid-template-columns: 225px auto;
+  grid-template-columns: 249px auto;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    position: relative;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto;
+    overflow: hidden;
+  }
 }
 
 .overlay {

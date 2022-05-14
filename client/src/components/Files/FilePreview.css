@@ -2,12 +2,21 @@
   width: auto;
   height: auto;
   max-height: 80%;
+  max-width: 80%;
   position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
 }
+
+@media screen and (max-width: 600px) {
+  .preview {
+    max-height: 90%;
+    max-width: 90%;
+  }
+}
+
 .preview__unsupported {
   color: white;
   position: absolute;
@@ -18,7 +27,7 @@
   transform: translate(-50%, -50%);
 }
 
-.overlay {
+.backdrop {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -32,33 +41,47 @@
 }
 
 .overlay__header {
-  display: block;
+  display: flex;
   position: absolute;
+  align-items: center;
   height: 48px;
-  width: 100%;
-  padding-top: 8px;
-  margin-right: 12px;
+  /* Make width better so that you only have to use margin-left */ 
+  width: calc(100% - 24px);
+  padding-top: 4px;
   padding-left: 12px;
+  padding-right: 12px;
   z-index: 901
 }
 
-.preview__close {
-  position: fixed;
+.preview__icon {
   color: white;
   text-align: center;
-  width: 40px;
-  height: 42px;
+  padding: 8px;
   border-radius: 2px;
   z-index: 902;
   cursor: pointer;
 }
 
-.preview__close-icon {
-  position: relative;
-  top: calc(50% - 13px);
-  z-index: 902;
+.preview__icon:hover {
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
-.preview__close:hover {
-  background-color: rgba(255, 255, 255, 0.25);
+.preview__media__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  color: white;
+  font-size: 14px;
+}
+
+.download {
+  margin-left: auto;
+}
+
+.box {
+  display: flex;
+}
+.push {
+    margin-left: auto;
 }

@@ -1,6 +1,8 @@
 import './App.css';
 import Header from "./components/Header"
-import Files from './components/Files';
+import Sidebar from './components/Sidebar';
+import FileIcons from './components/Files/FileIcons';
+import Features from './components/Tabs/Features';
 import {
   BrowserRouter as Router,
   Routes,
@@ -12,11 +14,13 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        <Routes>
-          <Route path="/" element={<Files />}/>
-          <Route path="/features" element={<Features />}/>
-          {/* <Route path="/disclaimer" element={<Disclaimer />}/> */}
-        </Routes>
+        <div className="body">
+          <Sidebar />
+          <Routes>
+            <Route path="/" element={<FileIcons />}/>
+            <Route path="/features" element={<Features />}/>
+          </Routes>
+        </div>
       </Router>
     </div>
   );
