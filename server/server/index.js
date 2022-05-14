@@ -1,16 +1,13 @@
 // server/index.js
 const express = require("express");
+const app = express();
 const path = require("path");
 const fs = require('fs');
 const fileUpload = require('express-fileupload');
-const app = express();
 
 const PORT = process.env.PORT || 3001;
 
 const storagePath = path.join(__dirname, "..", "..", "..", "..", "..", '/Programming/Storage/');
-
-// const multer = require('multer');
-// const upload = multer({ dest: storagePath});
 
 app.get("/files", (req, res) => {
   var files = [];
