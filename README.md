@@ -83,6 +83,13 @@ This is my project, a Local Network Storage System, a clone of Google Drive I ca
      - I recommend starting the server first so you don't get an error with the client trying to retrieve information from an offline server
    - With the open Terminal in "/client", use the command: "npm start"
 5. Navigate to the webpage
-   -  In the open Terminal in "/client", you should see an IP adress in the output
+   -  In the open Terminal in "/client", you should see an IP adress in the output  
    ![image](https://user-images.githubusercontent.com/97565066/168457781-196f272d-c839-4578-82b7-63f5d0ab0bda.png)
+   - Copy that address and paste it into a web broswer
+  
+From there, you should be taken to the homepage of the project!
+![image](https://user-images.githubusercontent.com/97565066/168460233-d21195fc-116b-41ae-bc6d-059fb71450d6.png)
 
+I'm making this repo public because I want you to see how many different components come together to create this project. And I also want you to experiment with it for yourself, changing elements and even changing the credits text.
+  
+But ye, hope you enjoy working with my project and happy coding!
