@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import FileUpload from './Files/FileUpload';
-import Sidebar from './Sidebar';
 import './Header.css'
 import StorageRoundedIcon from '@mui/icons-material/StorageRounded';
 import StarBorderPurple500RoundedIcon from '@mui/icons-material/StarBorderPurple500Rounded';
