@@ -45,7 +45,7 @@ Next, I added a menu button that would be used to open the sidebar on mobile dev
 Then I added CSS to hide the menu icon when the screen is larger than 600px, but then show it when less than 600px, allowing users to use the menu button and the sidebar
 (talk about min max width used to determine if sidebar appears or not, depending on their device)
 
-## Conclusion
+## Some Issues Along the Way and My Final Project
 
 I stayed up the night before until 3am finishing it up so that it can be used by other people.
 I also had trouble with networking and other devices connecting to it on different networks, so I brought a whole router from my home so that others can connect to the webpage.
@@ -90,6 +90,8 @@ This is my project, a Local Network Storage System, a clone of Google Drive I ca
 From there, you should be taken to the homepage of the project!
 ![image](https://user-images.githubusercontent.com/97565066/168460233-d21195fc-116b-41ae-bc6d-059fb71450d6.png)
 
+# Final Words
+  
 I'm making this repo public because I want you to see how many different components come together to create this project. And I also want you to experiment with it for yourself, changing elements and even changing the credits text.
   
-But ye, hope you enjoy working with my project and happy coding!
+But ye, hope you enjoy my project and happy coding!
