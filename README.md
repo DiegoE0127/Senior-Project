@@ -92,6 +92,6 @@ From there, you should be taken to the homepage of the project!
 
 # Final Words
   
-I'm making this repo public because I want you to see how many different components come together to create this project. And I also want you to experiment with it for yourself, changing elements and even changing the credits text.
+I'm making this repo public because I want you to see how many different components come together to create this project. And I also want you to experiment with it for yourself, changing elements and making it your own.
   
 But ye, hope you enjoy my project and happy coding!
