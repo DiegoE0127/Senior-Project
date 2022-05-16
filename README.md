@@ -59,6 +59,10 @@ This is my project, a Local Network Storage System, a clone of Google Drive I ca
 
 # Installation
 
+Prerequisite
+- This project assumes you already have NodeJS installed on you computer
+- If not, you can download it [here](https://nodejs.org/en/download/)
+
 1. Clone this repo into your project folder
    - There should now be two folders in that folder called "client" and "server"
    ![image](https://user-images.githubusercontent.com/97565066/168460418-d38eac43-e58a-4aed-9402-3488eeef6041.png)
