@@ -71,7 +71,8 @@ Prerequisite
    - Open Terminal in each folder and use the following command: "npm init -y"
    ![image](https://user-images.githubusercontent.com/97565066/168670495-877064f6-3b50-4061-aeec-97468b5a80aa.png)
 3. Install Packages in both folders
-   - Open Terminal in "/client" and install the following packages using the command: "npm i <package name>"
+   - Open Terminal in "/client" and install the following packages using the command: "npm i 'package name'"
+   - Alternatively, you can use: "npm i react react-redux react-router-dom axios @mui/material @mui/icons-material @emotion/styled @emotion/react"
      - react
      - react-dom
      - react-redux
@@ -83,6 +84,7 @@ Prerequisite
      - @emotion/styled
      - @emotion/react
    - Open Terminal in "/server" and install the following packages using the command: "npm i <package name>"
+   - Alternatively, you can use: "npm i express express-fileupload"
      - express
      - express-fileupload
 4. Start up the server and the client
